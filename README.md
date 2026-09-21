@@ -4,6 +4,8 @@ An Obsidian plugin that suggests or applies a tag to the currently open note
 using [TypeSafe](https://typesafe.ai)'s Jev model and the tags that already
 exist in your vault.
 
+Install it from the [Obsidian community store](https://community.obsidian.md/plugins/auto-tagger-jev).
+
 ## How it works
 
 1. Run **Auto-tag current note** from the command palette, or click the tag
@@ -46,12 +48,6 @@ exist in your vault.
   is used only as the bearer credential for that request. It is never logged.
 - The plugin collects no telemetry and sends no data to any service other than
   TypeSafe.
-
-## Scope
-
-This is v1: one command, one judgment, user-triggered only. Auto-triggering,
-multi-tier review queues, hierarchical tag selection, confidence thresholds, and
-non-text files are intentionally out of scope for now.
 
 ## Development
 
